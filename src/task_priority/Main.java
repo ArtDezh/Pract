@@ -13,6 +13,10 @@ public class Main {
         tasks.add(new Task(TaskPriority.HIGH, "Посетить вебинар по английскому языку."));
         tasks.add(new Task(TaskPriority.LOW, "Купить пылесос."));
 
+        System.out.println("Задачи с наивысшим приоритетом на сегодня:");
 
+        for (Task task: tasks) {
+            if (task.getPriority() == TaskPriority.HIGH) System.out.println(task);
+        }
     }
 }
