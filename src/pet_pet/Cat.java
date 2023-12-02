@@ -1,4 +1,4 @@
-import pet_pet.Pet;
+package pet_pet;
 
 public class Cat extends Pet {
 
