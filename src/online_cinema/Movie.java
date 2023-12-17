@@ -18,4 +18,9 @@ public class Movie implements MediaItem {
     public String getTitle() {
         return title;
     }
+
+    @Override
+    public String toString() {
+        return "Фильм - " + getTitle();
+    }
 }

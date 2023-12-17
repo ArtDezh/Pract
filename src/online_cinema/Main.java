@@ -50,7 +50,8 @@ public class Main {
 
     private static void printMediaItemsList(List<MediaItem> mediaItems) {
         System.out.println("Вы посмотрели фильмов и сериалов: " + mediaItems.size());
-
-        
+        for (MediaItem mi: mediaItems) {
+            System.out.println(mi);
+        }
     }
 }

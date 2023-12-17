@@ -24,4 +24,9 @@ public class Series implements MediaItem {
     public int getSeriesCount() {
         return seriesCount;
     }
+
+    @Override
+    public String toString() {
+        return "Сериал - " + getTitle();
+    }
 }
