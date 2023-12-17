@@ -11,4 +11,7 @@ public abstract class Contact {
 
     abstract void print();
 
+    public String getName() {
+        return name;
+    }
 }
