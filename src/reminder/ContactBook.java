@@ -1,4 +1,4 @@
 package reminder;
 
-public class ContactBook {
+public class ContactBook<T extends Contact> {
 }
